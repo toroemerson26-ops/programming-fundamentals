@@ -1,23 +1,23 @@
 	Algoritmo CalcularPromedio
-	// Definir variables
+	// Definir variables 2
 	Definir i Como Entero
 	Definir numero, suma, promedio Como Real
 	
 	suma <- 0
 	
-	// Solicitar 5 números al usuario
+	// Solicitar 5 numeros al usuario
 	Para i <- 1 Hasta 5 Con Paso 1 Hacer
-	Escribir "Ingrese el número ", i, ":"
+	Escribir "Ingrese el numero ", i, ":"
 	Leer numero
 	suma <- suma + numero
 	finPara
 	
-	// Calcular el promedio aritmético
+	// Calcular el promedio aritmatico
 	promedio <- suma / 5
 	
 	// Mostrar el resultado
 	Escribir ""
-	Escribir "El promedio aritmético de los 5 números es: ", promedio
+	Escribir "El promedio aritmatico de los 5 numeros es: ", promedio
 	
 FinAlgoritmo
 
